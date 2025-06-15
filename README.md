@@ -1,48 +1,59 @@
-🥉 Bronze Medal Solution – Zindi Lelapa AI Buzuzu-Mavi Challenge
-📌 Challenge Overview
-The Lelapa AI Buzuzu-Mavi Challenge focused on addressing a critical issue in AI: the lack of performant, lightweight language models for African languages. Existing open-source LLMs are too large and resource-intensive, often requiring high-end GPUs and consuming significant energy—barriers for wide deployment in Africa.
+# 🧠 InkubaLM Compression for Swahili & Hausa  
+### 🥉 Bronze Medal Solution – Zindi Lelapa AI Buzuzu-Mavi Challenge
 
-This competition challenged participants to compress Lelapa AI’s InkubaLM—a small language model (SLM)—while retaining or improving performance on two underrepresented languages: Swahili and Hausa.
+---
 
-🏆 Solution Summary
-This repository contains the solution that achieved a Bronze Medal in the challenge.
+## 🚀 Overview
 
-✅ Goals Achieved:
-Model Compression: Applied quantization and pruning to reduce model size and inference time.
+Open-source language models often underperform on African languages and demand high computational resources—barriers to real-world use in the African context. To make language AI truly inclusive, we need models that are **smaller**, **smarter**, and optimized for **resource-constrained environments**.
 
-Performance Optimization: Fine-tuned for downstream tasks in Swahili and Hausa.
+The **Lelapa AI Buzuzu-Mavi Challenge** tasked participants with compressing Lelapa AI’s *InkubaLM*—an open-source small language model (SLM)—while **maintaining or improving performance** for two key African languages: **Swahili** and **Hausa**.
 
-Balanced Trade-off: Delivered improved performance with significantly reduced resource demands.
+This repository presents our **Bronze Medal-winning solution**. 🥉
 
-🧪 Tasks & Evaluation
-Participants were evaluated on:
+---
 
-Sentiment Analysis
+## 🎯 Objectives
 
-AfriXNLI (Natural Language Inference)
+✅ Compress InkubaLM to reduce size and inference cost  
+✅ Retain or improve model accuracy on core NLP tasks  
+✅ Ensure usability on low-resource devices and CPUs  
+✅ Focus on **Swahili** and **Hausa** performance
 
-Machine Translation (English → Swahili/Hausa)
+---
 
-The objective was to either:
+## 🧪 Tasks & Evaluation
 
-Increase average model performance on any of the tasks/languages, or
+The model was evaluated across three NLP tasks:
 
-Reduce model size and resource requirements, or
+- 🗣️ **Sentiment Analysis**  
+- 🧠 **Natural Language Inference** (AfriXNLI – true/false reasoning)  
+- 🌍 **Machine Translation** (English → Swahili & Hausa)
 
-Do both effectively.
+Performance could be improved by either:
+- Increasing task accuracy,
+- Reducing model size,  
+- Or both.
 
-🔬 Techniques Used
-🔧 Quantization: Reduced model precision to 8-bit and 4-bit where applicable.
+---
 
-✂️ Pruning: Removed redundant weights to decrease size.
+## 🛠️ Techniques Applied
 
-🌍 Language-Specific Fine-tuning: Focused on domain/task-specific data for Swahili and Hausa.
+🔧 **Quantization** – Reduced precision (8-bit & 4-bit) for faster, leaner models  
+✂️ **Pruning** – Removed redundant parameters  
+🌐 **Language-Specific Fine-tuning** – Custom fine-tuning on Swahili and Hausa datasets
 
-💡 Impact
-This project contributes to:
+---
 
-Making AI accessible in low-resource settings.
+## 🌍 Why It Matters
 
-Empowering African developers with deployable tools.
+This work moves us closer to a future where African languages have **equal representation** in the AI ecosystem. Smaller, smarter models enable:
 
-Laying the groundwork for low-power NLP applications in healthcare, education, agriculture, and customer support.
+- ✅ Faster NLP on standard CPUs  
+- ✅ Offline language tools  
+- ✅ Scalable deployment in education, agriculture, health, and customer service  
+
+---
+
+## 🏗️ Repository Structure
+
